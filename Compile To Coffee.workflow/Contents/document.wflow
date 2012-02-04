@@ -5,7 +5,7 @@
 	<key>AMApplicationBuild</key>
 	<string>330</string>
 	<key>AMApplicationVersion</key>
-	<string>2.2.1</string>
+	<string>2.2.2</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -59,8 +59,8 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>export PATH="/usr/local/bin:/usr/local/lib/node_modules:$PATH"                                                                 
-/usr/local/bin/js2coffee | pbcopy</string>
+					<string>source ~/.nvm/nvm.sh
+js2coffee | pbcopy</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -173,7 +173,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>523.000000:444.000000</string>
+				<string>369.500000:444.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
